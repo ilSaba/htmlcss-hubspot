@@ -92,18 +92,38 @@ ul li{
 /* -------------JUMBO------------ */
 
 .background{
-  width: 100%;
-  height: 1000px;
+  height: 1095px;
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: contain;
+  background-size: 100vw;
+}
+
+.title{
+  color: #33475B;
+  font-size: 70px;
+  font-weight: bold;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.parag-title{
+  line-height: 30px;
+}
+
+.freehubspotjumbo{
+  width: 150px;
 }
 
 
+/* -----------HR SECTION GREY---------- */
 
-
-
+.bg-hrsection{
+  background-color: #B0EBE4;
+  height: 85px;
+  border-top: 3px solid #33475B;
+  border-bottom: 3px solid #33475B;
+}
 
 
 /* .contact-language-nav:after{
