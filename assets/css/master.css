@@ -1,0 +1,113 @@
+/* -----------UTILITY---------- */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-grey{
+  background-color: #F4F9FC;
+  height: 70px;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ----------FIRST NAV LEFT---------*/
+
+ul li{
+  float: left;
+  line-height: 60px;
+  display: inline;
+  list-style-type: none;
+  color: #00374F;
+}
+
+.first-chevron{
+  padding-right: 25px;
+  border-right: 1px solid black;
+}
+
+#padding-contactus{
+  padding-left: 25px;
+}
+
+.login-nav{
+  float: right;
+}
+
+/* ----------FIRST NAV RIGHT----------*/
+
+.fa-search{
+  color: #0097B5;
+}
+
+.but{
+  border-radius: 5px;
+  line-height: 0;
+  margin-top: 10px;
+  padding: 20px 15px;
+}
+
+.login{
+  color: #FE7759;
+  border: 1px solid #FE7759;
+  margin-left: 25px;
+
+}
+
+.freehubspot{
+  color: #fff;
+  background-color: #FE7759;
+  margin-left: 25px;
+}
+
+/* -----------SECOND NAV---------- */
+
+.bg-white{
+  height: 70px;
+}
+
+#logo{
+  float: left;
+  padding-top: 20px;
+}
+
+.services{
+  float: right;
+}
+
+.second-chevron{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* -------------JUMBO------------ */
+
+.background{
+  width: 100%;
+  height: 1000px;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+
+
+
+
+
+
+
+/* .contact-language-nav:after{
+  content: "";
+  display: table;
+  clear: both;
+} */
